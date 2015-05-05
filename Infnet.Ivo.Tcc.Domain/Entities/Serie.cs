@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infnet.Ivo.Tcc.Domain.Entities
 {
-    public class Serie
+    public class Serie : IDomain
     {
         public Guid Id { get; set; }
 
@@ -20,13 +20,13 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 
     public enum NivelSerie
     {
-        [Display(Name="Fácil")]
+        [Display(Name = "Fácil")]
         Facil = 1,
 
-        [Display(Name="Médio")]
+        [Display(Name = "Médio")]
         Medio = 2,
-        
-        [Display(Name="Difícil")]
+
+        [Display(Name = "Difícil")]
         Dificil = 3
     }
 }

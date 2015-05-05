@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infnet.Ivo.Tcc.Domain.Entities
 {
-    public class Empresa
+    public class Organizacao : IDomain
     {
         public Guid Id { get; set; }
 

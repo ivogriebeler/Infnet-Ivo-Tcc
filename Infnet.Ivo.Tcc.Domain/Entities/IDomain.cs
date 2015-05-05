@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Infnet.Ivo.Tcc.Domain.Entities
 {
-    public class Exercicio : IDomain
+    public interface IDomain
     {
-        public Guid Id { get; set; }
-
-        public string Nome { get; set; }
+        Guid Id { get; set; }
     }
 }

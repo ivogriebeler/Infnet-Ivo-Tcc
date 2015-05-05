@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Infnet.Ivo.Tcc.Domain.Entities
 {
-    public class Usuario
+    public class Usuario : IDomain
     {
         public Guid Id { get; set; }
 
-        [Required (ErrorMessage="Nome de Usuário obrigatório!")]
+        [Required(ErrorMessage = "Nome de Usuário obrigatório!")]
         [MaxLength(100)]
         public string Nome { get; set; }
 
