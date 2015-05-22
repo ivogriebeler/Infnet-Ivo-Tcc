@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infnet.Ivo.Tcc.Domain.Entities
 {
-    public class Serie : IDomain
+    public class Serie : Entity
     {
         public Guid Id { get; set; }
 

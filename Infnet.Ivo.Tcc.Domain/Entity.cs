@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infnet.Ivo.Tcc.Domain.Entities
+namespace Infnet.Ivo.Tcc.Domain
 {
-    public interface IDomain
+    public class Entity : IEntity
     {
-        Guid Id { get; set; }
+        public Guid Id { get; set; }
     }
 }
