@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Infnet.Ivo.Tcc.Domain.Repositories
 {
     public interface IRepository<TDomain, TKey> : IDisposable
-        where TDomain : class, IDomain, new()
+        where TDomain : class, IEntity, new()
         where TKey : struct
     {
         IQueryable<TDomain> ObterTodos();
