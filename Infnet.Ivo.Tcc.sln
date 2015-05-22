@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Ivo.Tcc.Web", "Infne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Ivo.Tcc.Infraestructure", "Infnet.Ivo.Tcc.Infraestructure\Infnet.Ivo.Tcc.Infraestructure.csproj", "{39762BE9-1D31-48E6-B711-B47807D8B452}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{B452CBE8-0FEF-4B8E-855E-067EDD1A43E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Ivo.Tcc.Service", "Infnet.Ivo.Tcc.Service\Infnet.Ivo.Tcc.Service.csproj", "{6A7E89D7-7760-4439-909A-71EDD8515607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{39762BE9-1D31-48E6-B711-B47807D8B452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39762BE9-1D31-48E6-B711-B47807D8B452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39762BE9-1D31-48E6-B711-B47807D8B452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7E89D7-7760-4439-909A-71EDD8515607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7E89D7-7760-4439-909A-71EDD8515607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7E89D7-7760-4439-909A-71EDD8515607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7E89D7-7760-4439-909A-71EDD8515607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +49,6 @@ Global
 		{AF381BD6-C279-4BE8-B5FB-7CC0794D924D} = {F9F1748B-A50B-4EEB-9D5F-254A85C8C663}
 		{96D9B9A8-50EE-4244-9994-284B8C2AC728} = {1B07AC85-F6ED-4FF3-A938-9D7FBBFCD2D8}
 		{39762BE9-1D31-48E6-B711-B47807D8B452} = {7DA3EBA4-D751-4924-9596-5C4DB5BEF8BB}
+		{6A7E89D7-7760-4439-909A-71EDD8515607} = {B452CBE8-0FEF-4B8E-855E-067EDD1A43E5}
 	EndGlobalSection
 EndGlobal
