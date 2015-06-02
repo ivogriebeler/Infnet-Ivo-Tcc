@@ -11,8 +11,6 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
     {
         public Guid Id { get; set; }
 
-        [Required(ErrorMessage = "Nome de Usuário obrigatório!")]
-        [MaxLength(100)]
         public string Nome { get; set; }
 
         public int? Idade { get; set; }
