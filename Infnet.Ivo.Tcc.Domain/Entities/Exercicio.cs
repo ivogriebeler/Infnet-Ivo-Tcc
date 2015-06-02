@@ -8,8 +8,13 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 {
     public class Exercicio : Entity
     {
-        public Guid Id { get; set; }
-
         public string Nome { get; set; }
+
+        public string Descricao { get; set; }
+
+        public string Duracao { get; set; }
+
+        public int SerieId { get; set; }
+        public virtual Serie Serie { get; set; }
     }
 }

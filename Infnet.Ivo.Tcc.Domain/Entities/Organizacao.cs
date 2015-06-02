@@ -8,8 +8,8 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 {
     public class Organizacao : Entity
     {
-        public Guid Id { get; set; }
-
         public string Nome { get; set; }
+
+        public virtual ICollection<Usuario> Usuarios { get; set; }
     }
 }

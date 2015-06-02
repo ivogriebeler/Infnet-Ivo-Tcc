@@ -9,5 +9,6 @@ namespace Infnet.Ivo.Tcc.Domain
     public class Entity : IEntity
     {
         public Guid Id { get; set; }
+        public bool EstaAtivo { get; set; }
     }
 }

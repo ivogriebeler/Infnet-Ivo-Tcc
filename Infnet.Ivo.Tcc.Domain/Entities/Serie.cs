@@ -9,8 +9,6 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 {
     public class Serie : Entity
     {
-        public Guid Id { get; set; }
-
         public string Nome { get; set; }
 
         public NivelSerie Nivel { get; set; }
