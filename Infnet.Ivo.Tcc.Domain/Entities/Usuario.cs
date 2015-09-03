@@ -13,8 +13,11 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 
         public int? Idade { get; set; }
 
-        public int OrganizacaoId { get; set; }
+        public Guid OrganizacaoId { get; set; }
         public virtual Organizacao Organizacao { get; set; }
+
+        public Guid? SerieId { get; set; }
+        public virtual Serie Serie { get; set; }
 
         public string Observacoes { get; set; }
     }

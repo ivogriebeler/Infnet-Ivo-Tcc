@@ -14,7 +14,7 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
 
         public string Duracao { get; set; }
 
-        public int SerieId { get; set; }
+        public Guid SerieId { get; set; }
         public virtual Serie Serie { get; set; }
     }
 }

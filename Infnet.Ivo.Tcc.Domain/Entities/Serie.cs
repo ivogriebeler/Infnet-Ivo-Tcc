@@ -11,9 +11,11 @@ namespace Infnet.Ivo.Tcc.Domain.Entities
     {
         public string Nome { get; set; }
 
+        public int Intervalo { get; set; }
+
         public NivelSerie Nivel { get; set; }
 
-        public virtual ICollection<Exercicio> Exercicios { get; set; }
+        public virtual IList<Exercicio> Exercicios { get; set; }
     }
 
     public enum NivelSerie
